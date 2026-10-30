@@ -1,6 +1,6 @@
 # DirSpread-VLA
 
-训练无关。视频上面是原版，下面先看碗，夹紧并移动后看盘子，速度变化后再看碗。摊开的是图像 token 的方向，长度保持原样。
+
 
 模型 `gs://openpi-assets/checkpoints/pi05_libero`  
 分词器 `gs://big_vision/paligemma_tokenizer.model`  
