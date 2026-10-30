@@ -1,0 +1,4 @@
+__pycache__/
+videos/
+*.mp4
+*.raw

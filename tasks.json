@@ -1,0 +1,294 @@
+{
+  "frames": 220,
+  "checkpoint": "gs://openpi-assets/checkpoints/pi05_libero",
+  "tokenizer": "gs://big_vision/paligemma_tokenizer.model",
+  "tasks": [
+    {
+      "id": 1,
+      "task_id": 0,
+      "init_idx": 0,
+      "camera": "far",
+      "delta": null,
+      "phrase": "bowl between plate and ramekin",
+      "note": "zoom 1.45x"
+    },
+    {
+      "id": 2,
+      "task_id": 4,
+      "init_idx": 0,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 3,
+      "task_id": 4,
+      "init_idx": 0,
+      "camera": null,
+      "delta": [
+        -0.21531849921028254,
+        0.1344224846172874,
+        -0.20957529320910334,
+        -0.09132458257845527,
+        -0.34738603056354683,
+        0.23103341086122187,
+        -0.24187724325699209
+      ],
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "init 0.347"
+    },
+    {
+      "id": 4,
+      "task_id": 5,
+      "init_idx": 0,
+      "camera": null,
+      "delta": [
+        -0.1626804868053502,
+        0.26623250778658003,
+        0.006853566907896236,
+        0.24300517245610853,
+        0.09780201685976836,
+        0.16923966315329997,
+        -0.28595307645586804
+      ],
+      "phrase": "bowl on the ramekin",
+      "note": "init 0.286"
+    },
+    {
+      "id": 5,
+      "task_id": 0,
+      "init_idx": 1,
+      "camera": "far",
+      "delta": null,
+      "phrase": "bowl between plate and ramekin",
+      "note": "zoom 1.45x"
+    },
+    {
+      "id": 6,
+      "task_id": 4,
+      "init_idx": 1,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 7,
+      "task_id": 9,
+      "init_idx": 1,
+      "camera": "yaw30",
+      "delta": null,
+      "phrase": "bowl on the wooden cabinet",
+      "note": "yaw +30 deg"
+    },
+    {
+      "id": 8,
+      "task_id": 7,
+      "init_idx": 1,
+      "camera": null,
+      "delta": [
+        -0.10775699262126509,
+        0.3136868429875703,
+        0.051332902327784646,
+        -0.1119523528054121,
+        -0.1599327661338503,
+        0.31642764349526553,
+        -0.038865253247020726
+      ],
+      "phrase": "bowl on the stove",
+      "note": "init 0.316"
+    },
+    {
+      "id": 9,
+      "task_id": 0,
+      "init_idx": 2,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl between plate and ramekin",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 10,
+      "task_id": 4,
+      "init_idx": 2,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 11,
+      "task_id": 5,
+      "init_idx": 2,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl on the ramekin",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 12,
+      "task_id": 6,
+      "init_idx": 2,
+      "camera": "yaw-30",
+      "delta": null,
+      "phrase": "bowl next to the cookie box",
+      "note": "yaw -30 deg"
+    },
+    {
+      "id": 13,
+      "task_id": 9,
+      "init_idx": 2,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl on the wooden cabinet",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 14,
+      "task_id": 2,
+      "init_idx": 2,
+      "camera": null,
+      "delta": [
+        0.3229455913155198,
+        -0.023911975457212575,
+        0.08967059840543479,
+        0.09465832872979923,
+        -0.22127742244321616,
+        -0.3066942072905381,
+        -0.06193822355141754
+      ],
+      "phrase": "bowl at the table center",
+      "note": "init 0.323"
+    },
+    {
+      "id": 15,
+      "task_id": 3,
+      "init_idx": 2,
+      "camera": null,
+      "delta": [
+        0.18482106190692804,
+        0.22065525180424017,
+        0.16099247430144548,
+        -0.2707565332323439,
+        0.2893484030717318,
+        0.21142560459809867,
+        0.2643839566546734
+      ],
+      "phrase": "bowl on the cookie box",
+      "note": "init 0.289"
+    },
+    {
+      "id": 16,
+      "task_id": 4,
+      "init_idx": 2,
+      "camera": null,
+      "delta": [
+        0.016312907082624117,
+        0.29094480457051264,
+        -0.31734343343227894,
+        -0.32879781624787857,
+        -0.3358490986506972,
+        -0.17306192543328053,
+        -0.17600115875371197
+      ],
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "init 0.336"
+    },
+    {
+      "id": 17,
+      "task_id": 5,
+      "init_idx": 2,
+      "camera": null,
+      "delta": [
+        -0.2187476659508234,
+        0.04693907286977694,
+        -0.3227099112768682,
+        0.06327150748439625,
+        -0.23379219286694808,
+        0.12451159599711659,
+        -0.33524725188927623
+      ],
+      "phrase": "bowl on the ramekin",
+      "note": "init 0.335"
+    },
+    {
+      "id": 18,
+      "task_id": 9,
+      "init_idx": 2,
+      "camera": null,
+      "delta": [
+        -0.2596034409679726,
+        0.18680140971670867,
+        0.2678345039313428,
+        -0.2119022011177774,
+        0.05154882564896618,
+        0.097124976215472,
+        0.07653398024481989
+      ],
+      "phrase": "bowl on the wooden cabinet",
+      "note": "init 0.268"
+    },
+    {
+      "id": 19,
+      "task_id": 4,
+      "init_idx": 3,
+      "camera": "yaw30",
+      "delta": null,
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "yaw +30 deg"
+    },
+    {
+      "id": 20,
+      "task_id": 5,
+      "init_idx": 3,
+      "camera": "yaw50",
+      "delta": null,
+      "phrase": "bowl on the ramekin",
+      "note": "yaw +50 deg"
+    },
+    {
+      "id": 21,
+      "task_id": 9,
+      "init_idx": 3,
+      "camera": "far",
+      "delta": null,
+      "phrase": "bowl on the wooden cabinet",
+      "note": "zoom 1.45x"
+    },
+    {
+      "id": 22,
+      "task_id": 4,
+      "init_idx": 3,
+      "camera": null,
+      "delta": [
+        0.05533820210047796,
+        -0.14021428897664914,
+        -0.295717399354298,
+        0.18422666598103687,
+        -0.2582447081960755,
+        -0.2567553503552252,
+        -0.25852102793490633
+      ],
+      "phrase": "bowl in the cabinet top drawer",
+      "note": "init 0.296"
+    },
+    {
+      "id": 23,
+      "task_id": 5,
+      "init_idx": 3,
+      "camera": null,
+      "delta": [
+        -0.29311638221880665,
+        0.28447465578017994,
+        -0.16152899022862666,
+        -0.13551259455519785,
+        0.2329560170014473,
+        0.083946421798261,
+        -0.2189996294214968
+      ],
+      "phrase": "bowl on the ramekin",
+      "note": "init 0.293"
+    }
+  ]
+}
